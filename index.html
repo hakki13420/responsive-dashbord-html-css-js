@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>responsive admin dashboard</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul class="menu">
+                <a href="">
+                    <li class="brand">
+                        <ion-icon class="icon" name="layers-outline"></ion-icon>
+                        <p>Brand Name</p>
+                    </li>
+                </a>
+
+                <a href="">
+                    <li class="menu-item">
+                        <ion-icon class="icon" name="home-outline"></ion-icon>
+                        <p>Home</p>
+                    </li>
+                </a>
+
+                <a href="">
+                    <li class="menu-item">
+                        <ion-icon class="icon" name="people-outline"></ion-icon>
+                        <p>Users</p>
+                    </li>
+                </a>
+
+                <a href="">
+                    <li class="menu-item">
+                        <ion-icon class="icon" name="chatbubble-ellipses-outline"></ion-icon>
+                        <p>Messages</p>
+                    </li>
+                </a>
+
+                <a href="">
+                    <li class="menu-item">
+                        <ion-icon class="icon" name="settings-outline"></ion-icon>
+                        <p>Settings</p>
+                    </li>
+                </a>
+
+                <a href="">
+                    <li class="menu-item">
+                        <ion-icon class="icon" name="log-out-outline"></ion-icon>
+                        <p>Sign Out</p>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <main>
+            <div class="top-menu">
+                <div class="menu-icon">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+                <div class="search">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <input type="text" placeholder="search...">
+                </div>
+                <div class="user">
+                    <img src="asset/images/user.png" alt="">
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-left-numbers">
+                            1238
+                        </div>
+                        <div class="card-left-title">
+                            Views
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-left-numbers">
+                            688
+                        </div>
+                        <div class="card-left-title">
+                            Sales
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-left-numbers">
+                            1238
+                        </div>
+                        <div class="card-left-title">
+                            Comments
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-left-numbers">
+                            1238
+                        </div>
+                        <div class="card-left-title">
+                            Incommings
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="details">
+                <div class="recent-orders">
+                    <div class="recent-orders-header">
+                        <h3>recent orders</h3>
+                        <a href="">View All</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Hp Laptop</td>
+                                <td>$256</td>
+                                <td>Paid</td>
+                                <td><span class="delivred">Delivred</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hp Laptop</td>
+                                <td>$256</td>
+                                <td>No Paid</td>
+                                <td><span class="pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hp Laptop</td>
+                                <td>$256</td>
+                                <td>Paid</td>
+                                <td><span class="in-progress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hp Laptop</td>
+                                <td>$256</td>
+                                <td>Paid</td>
+                                <td><span class="return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hp Laptop</td>
+                                <td>$256</td>
+                                <td>Paid</td>
+                                <td><span class="delivred">Delivred</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hp Laptop</td>
+                                <td>$256</td>
+                                <td>Paid</td>
+                                <td><span class="return">Return</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="recent-costommers">
+                    <div class="recent-costommers-header">
+                        <h3>Recent Costommers</h3>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <img class="avatar" src="/asset/images/user.png" alt="">
+                            </td>
+                            <td>
+                                <h4>Jhon Doe <span>Spain</span></h4>
+                            </td>
+                            <td>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="avatar" src="/asset/images/user.png" alt="">
+                            </td>
+                            <td>
+                                <h4>Jhon Doe <span>Spain</span></h4>
+                            </td>
+                            <td>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="avatar" src="/asset/images/user.png" alt="">
+                            </td>
+                            <td>
+                                <h4>Jhon Doe <span>Spain</span></h4>
+                            </td>
+                            <td>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="avatar" src="/asset/images/user.png" alt="">
+                            </td>
+                            <td>
+                                <h4>Jhon Doe <span>Spain</span></h4>
+                            </td>
+                            <td>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- -----------------------------ionicon----------------------------------------------- -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
